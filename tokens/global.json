@@ -113,11 +113,11 @@
   },
   "font": {
     "title": {
-      "1000": {
+      "font-1000": {
         "value": {
           "fontFamily": "DINPro",
           "fontWeight": "Black",
-          "lineHeight": 38,
+          "lineHeight": 26,
           "fontSize": 10,
           "letterSpacing": "0%",
           "paragraphSpacing": 0,
