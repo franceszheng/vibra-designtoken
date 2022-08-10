@@ -29,17 +29,33 @@ function getStyleDictionaryConfig(theme) {
     "source": [
       `tokens/${theme}.json`,
     ],
-    "platforms": {
-      "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
-        "files": [{
-            "destination": `${theme}.css`,
-            "format": "css/variables",
-            "selector": `.${theme}-theme`
-          }]
+     "platforms": {
+      "js": {
+        "transformGroup": "js",
+        "files": [
+          {
+            "format": "javascript/es6",
+            "destination": "colors.js",
+            "filter": {
+              "attributes": {
+                "category": "color"
+              }
+            }
+          }
+        ]
       }
     }
+//     "platforms": {
+//       "web": {
+//         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
+//         "buildPath": `output/`,
+//         "files": [{
+//             "destination": `${theme}.css`,
+//             "format": "css/variables",
+//             "selector": `.${theme}-theme`
+//           }]
+//       }
+//     }
   };
 }
 
