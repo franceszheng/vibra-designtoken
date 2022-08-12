@@ -45,6 +45,20 @@
         "type": "lineHeights"
       }
     },
+    "fontWeights": {
+      "dinpro-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "dinpro-1": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "dinpro-2": {
+        "value": "Black",
+        "type": "fontWeights"
+      }
+    },
     "fontSize": {
       "0": {
         "value": "10",
@@ -84,10 +98,6 @@
       }
     },
     "letterSpacing": {
-      "0": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
       "1": {
         "value": "0",
         "type": "letterSpacing"
@@ -326,20 +336,6 @@
       "none": {
         "value": "none",
         "type": "textCase"
-      }
-    },
-    "fontWeights": {
-      "dinpro-0": {
-        "value": "400",
-        "type": "fontWeights"
-      },
-      "dinpro-1": {
-        "value": "700",
-        "type": "fontWeights"
-      },
-      "dinpro-2": {
-        "value": "900",
-        "type": "fontWeights"
       }
     },
     "textDecorationLine": {
