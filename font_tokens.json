@@ -338,7 +338,7 @@
         "type": "textCase"
       }
     },
-    "textDecorationLine": {
+    "textDecoration": {
       "none": {
         "value": "none",
         "type": "textDecoration"
