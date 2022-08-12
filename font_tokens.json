@@ -107,6 +107,10 @@
       "0": {
         "value": "0",
         "type": "paragraphSpacing"
+      },
+      "1": {
+        "value": "1",
+        "type": "paragraphSpacing"
       }
     },
     "font": {
